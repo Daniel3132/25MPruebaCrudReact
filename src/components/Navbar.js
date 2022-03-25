@@ -1,13 +1,14 @@
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import "../estilos/navbar.css"
+
 
 const Navbar = () => {
     return (
-        <>
-        <NavLink to="/">Garaje</NavLink>
-        <NavLink to="/registro">Registro</NavLink>
-            <h1>Navbar</h1>
-        </>
+        <nav>
+            <Link className="link"  to="/">GARAJE</Link>
+            <Link className="link" to="/registro">REGISTRO</Link>
+        </nav>
     )
 }
 

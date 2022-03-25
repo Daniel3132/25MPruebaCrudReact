@@ -1,0 +1,22 @@
+form{
+    background-color: rgb(37, 37, 37);
+    color: rgb(224, 255, 199);
+    padding: 2%;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 400;
+}
+#btnEnviar{
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(67, 224, 67);
+    margin: 0 auto;
+    border-radius: 1000px;
+    border: none;
+}
+input{
+    padding: 5px;
+    border-radius: 1000px;
+    border: none;
+}

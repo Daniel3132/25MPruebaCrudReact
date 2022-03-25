@@ -1,0 +1,35 @@
+.cardsCont{
+    /* background-color: rgb(34, 34, 34); */
+    background-image: url('https://wallpaperstock.net/wallpapers/thumbs1/43634hd.jpg');
+
+    color: rgb(252, 252, 252);
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+.carta{
+    width: 20%;
+    height: 100%;
+    margin: 5%;
+    padding: 10px;
+    border: 4px solid rgba(135, 255, 80, 0.582);
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(255, 73, 73);
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    border-radius: 1000px;
+    border: none;
+}
